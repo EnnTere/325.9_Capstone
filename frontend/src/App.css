@@ -1,0 +1,187 @@
+/* * {
+  outline: solid 1px red;
+  box-sizing: border-box;
+} */
+
+body {
+  /* margin: 0; */
+  margin: 0;
+  /* outline: solid 1px blue; */
+  /*  */
+  /* margin: 0; this*/
+  overflow: hidden;
+}
+
+/* #root { */
+/* height: 100%; */
+/* padding: 3.5em; this?*/
+/* margin: 0;*/
+/* overflow: hidden; */
+/* outline: solid 1px red;  */
+/*  */
+/* margin: 0; */
+/* margin: 3.5em 3.5em 3.5em 3.5em; */
+/* } */
+
+/* Baselines & Vars to consider */
+/* font-family: pixel;
+  font-size: 18px;
+  line-height: 32px;
+  --ui-border: rgb(95, 57, 0);
+  --ui-background: rgb(175, 145, 100);
+  --ui-text: rgb(37, 22, 0);
+  --ui-highlight: rgb(213, 180, 131);
+  --ui-highlight2: rgb(251, 234, 207);
+  color: var(--ui-text);
+  text-shadow: 1px 1px 0px var(--ui-highlight); */
+
+#gameStage {
+  /* background-color: aquamarine; */
+  /* outline: solid 6px red;  */
+
+  /* max-width: 90%;
+  margin: 3.5em auto;
+  align-content: center; */
+  width: clamp(40em, 60em, 85em);
+  height: clamp(35em, 60em, 75em);
+  margin: 5% auto;
+  position: relative;
+  /* aspect-ratio: .75 / .70; */
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+/* For responsive behavior: */
+/* @media (max-aspect-ratio: 16/9) {
+  #gameStage {
+    width: auto;
+    height: 100%;
+  }
+} */
+
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  /* max-width: 100%; */
+  /* margin: auto; this */
+  outline: solid 1px green;
+  /* padding: .5em; */
+}
+/* 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0; */
+  /* margin: 0;
+  border: #1a73e8 2px solid;
+} */
+
+/* #application { */
+/* border: 5px solid #1a73e8; */
+/* align-content: center; */
+/* padding: 10px; */
+/* max-width: 550px; */
+/* height: 300px; */
+/* margin: auto; */
+/* text-align: center; */
+/* background-color: burlywood; */
+/* }; */
+
+
+/*
+#wrapper {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-gap: 0.25em;
+  grid-template-columns: 12.5em 1fr 12.5em;
+  color: #444;
+  position: absolute;
+   grid-template-rows: 3fr 1fr;  */
+  /* margin: 0.5rem 0.15rem 0.15rem 0.5rem; not this */
+  /* border: solid rgb(191, 54, 193) 5px;; 
+}*/
+
+/*
+#viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(0, 15, 24, 0.5);
+  z-index: 1;
+  /*padding: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin: 0.5rem 0.15rem 0.15rem 0.5rem; not this */
+  /* border: solid rgb(101, 44, 233) 5px; 
+} */
+
+/* #inventory {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(158, 27, 27, 0.5);
+  z-index: 2;
+} */
+
+/* #textbox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background-color: rgba(201, 42, 216, 0.5);
+  z-index: 3;
+} */
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
